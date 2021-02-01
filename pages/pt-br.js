@@ -1,9 +1,10 @@
-import NavBar from './components/UI/NavBar/NavBar'
+import NavBarPT from './components/UI/NavBar/NavBarPT'
 
 export default function Home() {
   return (
     <div className="container">
-      <NavBar />
+      <NavBarPT />
+      
     </div>
   )
 }

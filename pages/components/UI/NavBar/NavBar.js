@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react'
 
+export default class NavBar extends Component {
 
-const NavBar = () => {
-    return(
-        <header>
+    render() {
+        return (
+            <header>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Resume </li>
-                    <li>Projects </li>
-                    <li>Contact </li>
+                    <li className="custom-underline" >Home</li>
+                    <li className="custom-underline" >Resume </li>
+                    <li className="custom-underline" >Projects </li>
+                    <li className="custom-underline" >Contact </li>
                 </ul>
-                <select id="cars" name="cars">
-                  <option value="volvo">Portugues</option>
-                  <option value="saab">English</option>
-                  <option value="saab">Espanol</option>
+                <select id="languages" name="languages">
+                  <option value="Portugues">Portugues</option>
+                  <option value="English">English</option>
+                  <option value="Espanol">Espanol</option>
                 </select>
             </nav>
         </header>
-    )
+        )
+    }
 }
-
-export default NavBar

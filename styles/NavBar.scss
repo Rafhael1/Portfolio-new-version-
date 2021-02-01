@@ -1,20 +1,82 @@
 nav {
     height: 50px;
+
     ul {
         margin: 0 auto;
         text-align: center;
         list-style-type: none;
         padding: 15px;
+
         li {
             margin: 5px;
             font-size: 22px;
             display: inline;
             font-weight: 700;
+            user-select: none; 
         }
     }
 
     select {
         float: right;
     }
-}
 
+    $duration: 1s;
+    $distance: 7px;
+    $easeOutBack: cubic-bezier(0.175, 0.585, 0.320, 1.275);
+
+    .custom-underline {
+        position: relative;
+        text-decoration: none;
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: rgb(17, 17, 17);
+        }
+
+        &:before {
+            opacity: 0;
+            transform: translateY(- $distance);
+            transition: transform 0s $easeOutBack, opacity 0s;
+        }
+
+        &:after {
+            opacity: 0;
+            transform: translateY($distance/2);
+            transition: transform $duration $easeOutBack, opacity $duration;
+        }
+
+        &:hover,
+        &:focus {
+
+            &:before,
+            &:after {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            &:before {
+                transition: transform $duration $easeOutBack, opacity $duration;
+            }
+
+            &:after {
+                transition: transform 0s $duration $easeOutBack, opacity 0s $duration;
+            }
+        }
+    }
+
+    select {
+        padding: 10px;
+        border: 0px;
+        background-color: rgb(184, 184, 184);
+     
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif !important;
+    }
+
+}
