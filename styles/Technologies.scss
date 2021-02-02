@@ -1,0 +1,18 @@
+#technologies {
+    margin-left:  150px !important;
+    margin-right:  150px !important;
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    img {
+        margin: 15px auto;
+        height: 150px;
+        width: 150px;
+        padding: 0px !important;
+        opacity: 70%;      
+    }
+    img:hover {
+        opacity: 100%;
+        filter: drop-shadow(2px 3px 2px rgb(54, 54, 54));
+    }
+}

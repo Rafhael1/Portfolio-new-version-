@@ -1,0 +1,29 @@
+#en {
+    .DropdownMenu {
+        background-color: rgb(255, 88, 76) !important;
+        border: 0px;
+        padding: 10px;
+        
+    }
+}
+
+.DropdownMenu:active {
+    outline-style: none;
+    outline: 0px;
+    border: 0px;
+
+}
+
+.DropdownMenu:focus {
+    outline-style: none;
+    outline: 0px;
+    border: 0px;
+}
+
+.DropdownItems {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.DropdownItems:active {
+    background-color: rgba(68, 68, 68, 0.24);
+}

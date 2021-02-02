@@ -1,0 +1,45 @@
+.Cards {
+    margin: 10px auto;
+    text-align: center;
+    border: 0px;
+    background-color: rgba(241, 241, 241, 0.281);
+    height: 440px;
+    max-height: 440px;
+    p {
+        padding: 0px !important;
+        font-size: 18px;
+        letter-spacing: normal !important;
+    }
+
+    .icon {
+        font-size: 35px;
+        transition: 0.5s;
+        position: relative;
+    }
+    .icon:hover {
+        font-size: 45px;
+
+    }
+
+    .iconDisabled {
+        font-size: 35px;
+        position: relative;
+        opacity: 30%;
+        user-select: none;
+        
+    }
+
+    .Disabled {
+        opacity: 0 !important;
+        background-color: white !important;
+    }
+}
+
+#en {
+    .Cards {
+        .icon:hover {
+            color: rgb(255, 68, 68);
+            
+        }
+    }
+}
