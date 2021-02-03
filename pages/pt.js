@@ -18,24 +18,21 @@ export default function pt() {
                     <section>
                         <Row>
                             <Col>
-                                <div
-                                    style={{
-                                    width: '450px'
-                                }}>
+                                <div >
                                     <h2 className="green">Sobre Mim</h2>
                                     <p>
                                         Eu sou um desenvolvedor web front-end do Brasil. Tenho experiência no
                                         desenvolvimento de websites com Javascript e com os frameworks mostrados em meu
-                                        currículo, também tenho experiência no desenvolvimento de aplicativos móveis
-                                        com React Native, e aplicativos desktop com Electron. Embora eu
-                                        foque mais em desenvolvimento front-end, também tenho conhecimento de tecnologias de back-end,
+                                        currículo, também tenho experiência no desenvolvimento de aplicativos móveis com
+                                        React Native, e aplicativos desktop com Electron. Embora eu foque mais em
+                                        desenvolvimento front-end, também tenho conhecimento de tecnologias de back-end,
                                         incluindo Node.Js e databases como SQL e MongoDB.
                                     </p>
                                 </div>
                             </Col>
-                            <Col>
-                                <div className="Vector">
-                                    <VectorPT/>
+                            <Col className="Vector">
+                                <div >
+                                    <VectorPT className="Vector"/>
                                 </div>
                             </Col>
                         </Row>

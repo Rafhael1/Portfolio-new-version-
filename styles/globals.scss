@@ -58,10 +58,7 @@ html {
       }
 }
 
-body {
-    position: absolute !important; 
-    width: 100% !important;
-}
+
 
 h1 {
   font-weight: 700;
@@ -101,5 +98,8 @@ p {
   #technologies {
     margin-left:  15px !important;
     margin-right:  15px !important;
+  }
+  .DropdownMenu {
+    float:  left !important;
   }
 }
