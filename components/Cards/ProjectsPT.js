@@ -65,12 +65,12 @@ export default function Projects() {
         </Card>
         </Col>
         <Col>
-        <Card className="Cards" style={{width: '18rem', background: 'none'}}>
+        <Card className="Cards hidden" style={{width: '18rem', background: 'none'}}>
            {/* Placeholder for design purposes */}
         </Card>
         </Col>
         <Col>
-        <Card className="Cards" style={{width: '18rem', background: 'none'}}>
+        <Card className="Cards hidden" style={{width: '18rem', background: 'none'}}>
             {/* Placeholder for design purposes */}
         </Card>
         </Col>

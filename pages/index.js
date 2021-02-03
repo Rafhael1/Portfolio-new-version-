@@ -19,7 +19,7 @@ export default function Home() {
                     <section>
                         <Row>
                             <Col>
-                                <div style={{width: '450px'}}>
+                                <div>
                                     <h2  className="red">About Me</h2>
                                     <p>
                                         I am a Front-End Web Developer from Brazil. I have experience developing
@@ -31,7 +31,7 @@ export default function Home() {
                                     </p>
                                 </div>
                             </Col>
-                            <Col>
+                            <Col className="Vector">
                                 <div className="Vector">
                                     <Vector/>
                                 </div>

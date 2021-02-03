@@ -41,19 +41,26 @@ body {
   background: rgb(68, 68, 68);
 }
 
+
+
 html {
   #en{
-background-color: #2c3055;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%232c3055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2335335c' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233f3662' cx='50' cy='100' r='50'/%3E%3Cg fill='%23493867' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23543a6c' cx='50' cy='200' r='50'/%3E%3Cg fill='%235f3c71' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%236b3e75' cx='50' cy='300' r='50'/%3E%3Cg fill='%23763f78' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2382407a' cx='50' cy='400' r='50'/%3E%3Cg fill='%238e417c' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%239a427d' cx='50' cy='500' r='50'/%3E%3Cg fill='%23a6437d' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b2457d' cx='50' cy='600' r='50'/%3E%3Cg fill='%23bd467c' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c8487a' cx='50' cy='700' r='50'/%3E%3Cg fill='%23d34a77' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dd4d74' cx='50' cy='800' r='50'/%3E%3Cg fill='%23e75170' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ef566b' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f85b66' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff6161' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-  }
-  #pt {
-    background-color: #1a5510;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%231a5510' cx='50' cy='0' r='50'/%3E%3Cg fill='%23245d12' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%232d6514' cx='50' cy='100' r='50'/%3E%3Cg fill='%23376c16' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23407418' cx='50' cy='200' r='50'/%3E%3Cg fill='%234a7c1a' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2354841b' cx='50' cy='300' r='50'/%3E%3Cg fill='%235e8c1d' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2369941f' cx='50' cy='400' r='50'/%3E%3Cg fill='%23749c20' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%237fa422' cx='50' cy='500' r='50'/%3E%3Cg fill='%238aac24' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2396b425' cx='50' cy='600' r='50'/%3E%3Cg fill='%23a2bc27' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23afc429' cx='50' cy='700' r='50'/%3E%3Cg fill='%23bbcc2b' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c8d42d' cx='50' cy='800' r='50'/%3E%3Cg fill='%23d5dc30' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e3e432' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f1eb35' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fff338' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-  }
+    background-color: #2c3055;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%232c3055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2335335c' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233f3662' cx='50' cy='100' r='50'/%3E%3Cg fill='%23493867' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23543a6c' cx='50' cy='200' r='50'/%3E%3Cg fill='%235f3c71' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%236b3e75' cx='50' cy='300' r='50'/%3E%3Cg fill='%23763f78' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2382407a' cx='50' cy='400' r='50'/%3E%3Cg fill='%238e417c' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%239a427d' cx='50' cy='500' r='50'/%3E%3Cg fill='%23a6437d' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b2457d' cx='50' cy='600' r='50'/%3E%3Cg fill='%23bd467c' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c8487a' cx='50' cy='700' r='50'/%3E%3Cg fill='%23d34a77' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dd4d74' cx='50' cy='800' r='50'/%3E%3Cg fill='%23e75170' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ef566b' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f85b66' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff6161' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+      }
+      #pt {
+        background-color: #1a5510;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%231a5510' cx='50' cy='0' r='50'/%3E%3Cg fill='%23245d12' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%232d6514' cx='50' cy='100' r='50'/%3E%3Cg fill='%23376c16' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23407418' cx='50' cy='200' r='50'/%3E%3Cg fill='%234a7c1a' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2354841b' cx='50' cy='300' r='50'/%3E%3Cg fill='%235e8c1d' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2369941f' cx='50' cy='400' r='50'/%3E%3Cg fill='%23749c20' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%237fa422' cx='50' cy='500' r='50'/%3E%3Cg fill='%238aac24' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2396b425' cx='50' cy='600' r='50'/%3E%3Cg fill='%23a2bc27' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23afc429' cx='50' cy='700' r='50'/%3E%3Cg fill='%23bbcc2b' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c8d42d' cx='50' cy='800' r='50'/%3E%3Cg fill='%23d5dc30' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e3e432' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f1eb35' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fff338' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+      }
+}
+
+body {
+    position: absolute !important; 
+    width: 100% !important;
 }
 
 h1 {
@@ -74,3 +81,25 @@ p {
 }
 
 
+
+@media only screen and (max-width: 450px) {
+  /* For phones: */
+
+  .Vector {
+    visibility: hidden !important;
+    display: none;
+    height: 0 !important;
+    width: 0 !important;
+  }
+  .hidden {
+    visibility: hidden !important;
+    display: none;
+    height: 0 !important;
+    width: 0 !important;
+  }
+  
+  #technologies {
+    margin-left:  15px !important;
+    margin-right:  15px !important;
+  }
+}
