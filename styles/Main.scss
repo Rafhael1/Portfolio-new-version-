@@ -20,6 +20,26 @@ main {
     margin: 0 auto !important;
   }
 
+  .green {
+    background-color: rgb(36, 161, 4) ;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    margin: 0 auto !important;
+  }
+
+  .yellow {
+    background-color:  rgb(238, 234, 25);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    margin: 0 auto !important;
+  }
+
   p {
     text-align: left;
     letter-spacing: 1.5px;

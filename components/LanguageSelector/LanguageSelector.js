@@ -12,12 +12,11 @@ export default function LanguageSelector() {
         
             <Dropdown.Toggle className="DropdownMenu" variant="info" id="dropdown-basic">
             <LanguageIcon />
-              Language
+              
             </Dropdown.Toggle>
             <Dropdown.Menu>
                 <Dropdown.Item className="DropdownItems" href="/pt">Português</Dropdown.Item>
                 <Dropdown.Item className="DropdownItems" href="/">English</Dropdown.Item>
-                <Dropdown.Item className="DropdownItems" href="/es">Español</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
         </div>

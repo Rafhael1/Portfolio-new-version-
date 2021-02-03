@@ -1,0 +1,32 @@
+footer {
+    background-color: rgba(218, 218, 218, 0.123);
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+    i {
+        color: rgb(247, 247, 247);
+        padding: 15px 5px;
+    }
+
+    i:hover {
+        color: rgb(44, 44, 44);
+        cursor: pointer;
+    }
+}
+
+#pt {
+    footer {
+        p {
+            color: rgb(31, 30, 30) !important;
+
+        }
+
+        i {
+            color: rgb(31, 30, 30) !important;
+
+        }
+    }
+}

@@ -1,15 +1,18 @@
-import NavBar from './components/UI/NavBar/NavBar'
-import Vector from './components/UI/Vector/Vector'
-import Websites from './components/Cards/Websites'
-import Projects from './components/Cards/Projects'
+import NavBar from '../components/UI/NavBar/NavBar'
+import Vector from '../components/UI/Vector/Vector'
+import Websites from '../components/Cards/Websites'
+import Projects from '../components/Cards/Projects'
+import Technologies from '../components/Cards/Technologies'
+import ContactForm from '../components/ContactForm/ContactForm'
+import Footer from '../components/UI/Footer/Footer'
 
 import Container from 'react-bootstrap/Container'
 import {Row, Col } from 'react-bootstrap'
-import Technologies from './components/Cards/Technologies'
 
 
 export default function Home() {
     return (
+        <div id="en">
             <Container id="en" >
                 <NavBar/>
                 <main>
@@ -61,7 +64,17 @@ export default function Home() {
                             <Technologies />
                         </div>
                     </section>
+                    <section>
+                        <div>
+                            <h2 className="red" >Contact</h2>
+                            <ContactForm />
+                        </div>
+                    </section>
                 </main>
             </Container>
+            <footer>
+                    <Footer />
+                </footer>
+        </div>
     )
 }
