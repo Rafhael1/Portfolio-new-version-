@@ -9,9 +9,13 @@ import Footer from '../components/UI/Footer/Footer'
 import Container from 'react-bootstrap/Container'
 import {Row, Col} from 'react-bootstrap'
 
+import {NextSeo} from 'next-seo';
+
+
 export default function pt() {
     return (
         <div id="pt">
+            <NextSeo title="Rafhael Marques" description="Website/Portifolio de Rafhael Marques de Lima Freitas para mostrar meus projetos e competencias"/>
             <Container id="pt">
                 <NavBarPT/>
                 <main>

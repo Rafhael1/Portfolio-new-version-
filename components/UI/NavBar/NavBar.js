@@ -21,7 +21,7 @@ export default class NavBar extends Component {
                                 <Nav.Link className="NavItem custom-underline" href="#projects">Projects</Nav.Link>
                                 <Nav.Link className="NavItem custom-underline" href="#contact">Contact</Nav.Link>
                             </Nav>
-                            <div>
+                            <div className="DropDownMobile" >
                                 <LanguageSelector/>
                             </div>
                         </Navbar.Collapse>

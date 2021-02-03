@@ -21,7 +21,7 @@ export default class NavBarPT extends Component {
                                 <Nav.Link className="NavItem custom-underline" href="#projects">Projetos</Nav.Link>
                                 <Nav.Link className="NavItem custom-underline" href="#contact">Contato</Nav.Link>
                             </Nav>
-                            <div>
+                            <div className="DropDownMobile">
                                 <LanguageSelector/>
                             </div>
                         </Navbar.Collapse>
