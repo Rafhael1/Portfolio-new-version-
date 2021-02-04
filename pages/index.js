@@ -9,6 +9,10 @@ import Footer from '../components/UI/Footer/Footer'
 import Container from 'react-bootstrap/Container'
 import {Row, Col} from 'react-bootstrap'
 
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+
+
 import {NextSeo} from 'next-seo';
 
 export default function Home() {
@@ -16,9 +20,12 @@ export default function Home() {
         <div id="en">
             <NextSeo title="Rafhael Marques" description="Rafhael Marques de Lima Freitas' personal portfolio website. A website to show my skills and projects"/>
             <Container id="en">
+                <Bounce>
                 <NavBar/>
+                </Bounce>
                 <main>
                     <section>
+                        <Fade left>
                         <Row>
                             <Col>
                                 <div>
@@ -39,8 +46,10 @@ export default function Home() {
                                 </div>
                             </Col>
                         </Row>
+                        </Fade>
                     </section>
                     <section>
+                        <Fade left>
                         <Row>
                             <Col>
                                 <div>
@@ -49,8 +58,10 @@ export default function Home() {
                                 </div>
                             </Col>
                         </Row>
+                        </Fade>
                     </section>
                     <section>
+                        <Fade right>
                         <Row>
                             <Col>
                                 <div>
@@ -59,18 +70,23 @@ export default function Home() {
                                 </div>
                             </Col>
                         </Row>
+                        </Fade>
                     </section>
                     <section>
+                        <Fade left>
                         <div>
                             <h2 className="blue">Technologies</h2>
                             <Technologies/>
                         </div>
+                        </Fade>
                     </section>
                     <section>
+                        <Fade top>
                         <div>
                             <h2 className="red">Contact</h2>
                             <ContactForm/>
                         </div>
+                        </Fade>
                     </section>
                 </main>
             </Container>

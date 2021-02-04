@@ -77,7 +77,12 @@ p {
   color: $regularTextColor ;
 }
 
+#pt {
+  p {
+    color: rgb(43, 43, 43) !important;
 
+  }
+  }
 
 @media only screen and (max-width: 450px) {
   /* For phones: */

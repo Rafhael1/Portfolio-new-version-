@@ -9,6 +9,10 @@ import Footer from '../components/UI/Footer/Footer'
 import Container from 'react-bootstrap/Container'
 import {Row, Col} from 'react-bootstrap'
 
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+
+
 import {NextSeo} from 'next-seo';
 
 
@@ -17,9 +21,12 @@ export default function pt() {
         <div id="pt">
             <NextSeo title="Rafhael Marques" description="Website/Portifolio de Rafhael Marques de Lima Freitas para mostrar meus projetos e competencias"/>
             <Container id="pt">
+                <Bounce>
                 <NavBarPT/>
+                </Bounce>
                 <main>
                     <section>
+                        <Fade left>
                         <Row>
                             <Col>
                                 <div >
@@ -40,8 +47,10 @@ export default function pt() {
                                 </div>
                             </Col>
                         </Row>
+                        </Fade>
                     </section>
                     <section>
+                        <Fade right>
                         <Row>
                             <Col>
                                 <div>
@@ -50,8 +59,10 @@ export default function pt() {
                                 </div>
                             </Col>
                         </Row>
+                        </Fade>
                     </section>
                     <section>
+                        <Fade left>
                         <Row>
                             <Col>
                                 <div>
@@ -60,18 +71,23 @@ export default function pt() {
                                 </div>
                             </Col>
                         </Row>
+                        </Fade>
                     </section>
                     <section>
+                        <Fade right>
                         <div>
                             <h2 className="yellow">Tecnologias</h2>
                             <Technologies/>
                         </div>
+                        </Fade>
                     </section>
                     <section>
+                        <Fade top>
                         <div>
                             <h2 className="green">Contato</h2>
                             <ContactFormPT/>
                         </div>
+                        </Fade>
                     </section>
                 </main>
             </Container>
