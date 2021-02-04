@@ -81,7 +81,7 @@ export default function Home() {
                         </Fade>
                     </section>
                     <section>
-                        <Fade top>
+                        <Fade bottom>
                         <div>
                             <h2 className="red">Contact</h2>
                             <ContactForm/>

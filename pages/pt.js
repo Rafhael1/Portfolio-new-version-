@@ -82,7 +82,7 @@ export default function pt() {
                         </Fade>
                     </section>
                     <section>
-                        <Fade top>
+                        <Fade bottom>
                         <div>
                             <h2 className="green">Contato</h2>
                             <ContactFormPT/>
