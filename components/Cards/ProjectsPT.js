@@ -65,8 +65,15 @@ export default function Projects() {
         </Card>
         </Col>
         <Col>
-        <Card className="Cards hidden" style={{width: '18rem', background: 'none'}}>
-           {/* Placeholder for design purposes */}
+        <Card className="Cards" style={{width: '18rem'}}>
+        <Card.Body>
+                <Card.Title><h3>Fokuso</h3></Card.Title>
+                <Card.Text>
+                    <p>Este é um aplicativo de produtividade que estou construindo atualmente com o PERN stack. Mas você pode ver o código, basta clicar no link do código abaixo.</p>
+                </Card.Text>
+                <Button variant="none" target="_blank" href="" ><VisibilityIcon className="iconDisabled" /></Button>
+                <Button variant="none" target="_blank" href="https://github.com/Rafhael1/Fokuso" ><CodeIcon className="icon" /></Button>
+            </Card.Body>
         </Card>
         </Col>
         <Col>

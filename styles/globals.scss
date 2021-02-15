@@ -87,6 +87,10 @@ p {
 @media only screen and (max-width: 450px) {
   /* For phones: */
 
+  body {
+    align-items: center !important;
+  }
+
   .Vector {
     visibility: hidden !important;
     display: none;
@@ -95,7 +99,7 @@ p {
   }
   .hidden {
     visibility: hidden !important;
-    display: none;
+    display: none !important;
     height: 0 !important;
     width: 0 !important;
   }
@@ -106,5 +110,13 @@ p {
   }
   .DropDownMobile {
     float: left;
+  }
+}
+
+
+
+@media only screen and (max-width: 360px) {
+  textarea {
+    width: 270px;
   }
 }
