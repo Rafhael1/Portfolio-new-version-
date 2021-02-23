@@ -66,6 +66,7 @@ export default function Projects() {
         </Col>
         <Col>
         <Card className="Cards" style={{width: '18rem'}}>
+        <Card.Img variant="top" src="fokuso.jpeg" style={{maxHeight: '128px'}}/>
         <Card.Body>
                 <Card.Title><h3>Fokuso</h3></Card.Title>
                 <Card.Text>
