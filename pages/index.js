@@ -36,7 +36,7 @@ export default function Home() {
                                         experience developing cross platform mobile applications with React Native, and
                                         desktop applications with Electron. Even though I focus on front-end
                                         development, I also have experience with back-end technologies including Node.Js
-                                        and databases such as SQL and MongoDB. Check out my resume.
+                                        and databases such as SQL|PostgreSQL and I've tried MongoDB too. Check out my resume.
                                     </p>
                                 </div>
                             </Col>

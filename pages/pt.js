@@ -37,7 +37,8 @@ export default function pt() {
                                         currículo, também tenho experiência no desenvolvimento de aplicativos móveis com
                                         React Native, e aplicativos desktop com Electron. Embora eu foque mais em
                                         desenvolvimento front-end, também tenho conhecimento de tecnologias de back-end,
-                                        incluindo Node.Js e databases como SQL e MongoDB.
+                                        incluindo Node.Js e databases como SQL|PostgreSQL e eu também já testei MongoDB mas,
+                                        pessoalmente, prefiro SQL.
                                     </p>
                                 </div>
                             </Col>
