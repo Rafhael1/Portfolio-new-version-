@@ -66,13 +66,13 @@ export default function Projects() {
         </Col>
         <Col>
         <Card className="Cards" style={{width: '18rem'}}>
-        <Card.Img variant="top" src="fokuso.jpeg" style={{maxHeight: '128px'}}/>
+        <Card.Img variant="top" src="fokuso.png" style={{maxHeight: '128px'}}/>
         <Card.Body>
                 <Card.Title><h3>Fokuso</h3></Card.Title>
                 <Card.Text>
-                    <p>Este é um aplicativo de produtividade que estou construindo atualmente com o PERN stack. Mas você pode ver o código, basta clicar no link do código abaixo.</p>
+                    <p>Este é um aplicativo de produtividade que eu construi com o PERN stack. Em breve vai estar disponivel pra uso.</p>
                 </Card.Text>
-                <Button variant="none" target="_blank" href="" ><VisibilityIcon className="iconDisabled" /></Button>
+                <Button variant="none" target="_blank" href="https://youtu.be/lmTCqIza6qE" ><VisibilityIcon className="icon" /></Button>
                 <Button variant="none" target="_blank" href="https://github.com/Rafhael1/Fokuso" ><CodeIcon className="icon" /></Button>
             </Card.Body>
         </Card>

@@ -66,13 +66,13 @@ export default function Projects() {
         </Col>
         <Col>
         <Card className="Cards " style={{width: '18rem'}}>
-        <Card.Img variant="top" src="fokuso.jpeg" style={{maxHeight: '128px'}}/>
+        <Card.Img variant="top" src="fokuso.png" style={{maxHeight: '128px'}}/>
             <Card.Body>
                 <Card.Title><h3>Fokuso</h3></Card.Title>
                 <Card.Text>
-                    <p>This is a productivity app that I am currently building with the PERN stack. But you can see the code, just click on the code link down below.</p>
+                    <p>This is a productivity app that I built with the PERN stack. I'm currently trying to deploy it to AWS.</p>
                 </Card.Text>
-                <Button variant="none" target="_blank" href="" ><VisibilityIcon className="iconDisabled" /></Button>
+                <Button variant="none" target="_blank" href="https://youtu.be/lmTCqIza6qE" ><VisibilityIcon className="icon" /></Button>
                 <Button variant="none" target="_blank" href="https://github.com/Rafhael1/Fokuso" ><CodeIcon className="icon" /></Button>
             </Card.Body>
         </Card>
