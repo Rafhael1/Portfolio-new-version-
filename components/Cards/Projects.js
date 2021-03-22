@@ -78,8 +78,16 @@ export default function Projects() {
         </Card>
         </Col>
         <Col>
-        <Card className="Cards hidden" style={{width: '18rem', background: 'none'}}>
-            {/* Placeholder for design purposes */}
+        <Card className="Cards " style={{width: '18rem'}}>
+        <Card.Img variant="top" src="countries-app.png" style={{maxHeight: '128px'}}/>
+        <Card.Body>
+                <Card.Title><h3>Countries Info</h3></Card.Title>
+                <Card.Text>
+                    <p>Este é um aplicativo de informações básicas de países construído com o react.</p>
+                </Card.Text>
+                <Button variant="none" target="_blank" href="https://countries-6ed21.web.app/" ><VisibilityIcon className="icon" /></Button>
+                <Button variant="none" target="_blank" href="https://github.com/Rafhael1/countries-app" ><CodeIcon className="icon" /></Button>
+            </Card.Body>
         </Card>
         </Col>
         </Row>
