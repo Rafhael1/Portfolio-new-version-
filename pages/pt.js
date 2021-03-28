@@ -44,7 +44,7 @@ export default function pt() {
                             </Col>
                             <Col className="Vector">
                                 <div >
-                                    <VectorPT className="Vector"/>
+                                    <img src="devpt.svg" style={{height: '580px', width: '530px'}} />
                                 </div>
                             </Col>
                         </Row>

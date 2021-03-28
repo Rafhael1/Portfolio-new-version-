@@ -42,7 +42,7 @@ export default function Home() {
                             </Col>
                             <Col className="Vector">
                                 <div className="Vector">
-                                    <Vector/>
+                                    <img src="dev.svg" style={{height: '580px', width: '530px'}} />
                                 </div>
                             </Col>
                         </Row>

@@ -78,7 +78,7 @@ export default function Projects() {
         </Card>
         </Col>
         <Col>
-        <Card className="Cards" style={{width: '18rem', background: 'none'}}>
+        <Card className="Cards" style={{width: '18rem'}}>
         <Card.Img variant="top" src="countries-app.png" style={{maxHeight: '128px'}}/>
         <Card.Body>
                 <Card.Title><h3>Countries Info</h3></Card.Title>
