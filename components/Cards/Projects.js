@@ -29,7 +29,7 @@ export default function Projects() {
             <Card.Body>
                 <Card.Title><h3>Quotes App</h3></Card.Title>
                 <Card.Text>
-                    <p>This is a quotes app with a very simple design. The app gets random quotes from an external API when you click the button.</p>
+                    <p>This is a quotes app with a very simple design. Check it on the link down below.</p>
                 </Card.Text>
                 <Button variant="none" target="_blank" href="https://quotes-app-a3283.web.app/" ><VisibilityIcon className="icon" /></Button>
                 <Button variant="none" target="_blank" href="https://github.com/Rafhael1/QuotesApp" ><CodeIcon className="icon" /></Button>

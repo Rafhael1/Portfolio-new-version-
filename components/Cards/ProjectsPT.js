@@ -70,7 +70,7 @@ export default function Projects() {
         <Card.Body>
                 <Card.Title><h3>Fokuso</h3></Card.Title>
                 <Card.Text>
-                    <p>Este é um aplicativo de produtividade que eu construi com o PERN stack. Em breve vai estar disponivel pra uso.</p>
+                    <p>Este é um aplicativo de produtividade que eu construi com o PERN stack. Veja no link abaixo.</p>
                 </Card.Text>
                 <Button variant="none" target="_blank" href="https://youtu.be/lmTCqIza6qE" ><VisibilityIcon className="icon" /></Button>
                 <Button variant="none" target="_blank" href="https://github.com/Rafhael1/Fokuso" ><CodeIcon className="icon" /></Button>
