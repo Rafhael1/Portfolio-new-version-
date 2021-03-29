@@ -50,3 +50,24 @@ main {
   }
  
 }
+
+.Websites {
+    img {
+      filter: grayscale(60%);   
+      transition: 0.5s;      
+  }
+  img:hover{
+    filter: grayscale(0%);
+  }
+}
+
+#projects {
+   img {
+       filter: grayscale(60%);
+      transition: 0.5s;      
+
+  }
+  img:hover{
+    filter: grayscale(0%);
+  }
+}

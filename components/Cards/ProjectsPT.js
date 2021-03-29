@@ -60,7 +60,7 @@ export default function Projects() {
                     <p>Foi construído com React Native. Uma amostra não está disponível, mas você pode verificar o código abaixo.</p>
                 </Card.Text>
                 <Button variant="none" target="_blank"  ><VisibilityIcon className=" iconDisabled" /></Button>
-                <Button variant="none" target="_blank" href="https://github.com/Rafhael1/Yelp-restaurant-search-app-" ><CodeIcon className="icon" /></Button>
+                <Button variant="none" target="_blank" href="https://github.com/Rafhael1/Yelp-restaurant-search-app" ><CodeIcon className="icon" /></Button>
             </Card.Body>
         </Card>
         </Col>

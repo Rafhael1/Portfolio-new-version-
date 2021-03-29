@@ -4,7 +4,7 @@ import {Card, Button, Col, Row} from 'react-bootstrap'
 
 export default function Websites() {
     return (
-        <div style={{padding: '15px', margin: '0 auto'}} >
+        <div className="Websites" style={{padding: '15px', margin: '0 auto'}} >
             <Row>
                 <Col>
             <Card className="Cards" style={{width: '18rem'}}>
@@ -27,6 +27,18 @@ export default function Websites() {
                         <p>Meu novo website/portifolio feito com: React, Next.js, Sass, Bootstrap</p>
                     </Card.Text>
                     <Button variant="light" target="_blank" href="https://github.com/Rafhael1/Portfolio-new-version-" >Ver Código</Button>
+                </Card.Body>
+            </Card>
+            </Col>
+            <Col>
+            <Card className="Cards" style={{width: '18rem'}}>
+                <Card.Img variant="top" src="fokuso.png"/>
+                <Card.Body>
+                    <Card.Title><h3>Fokuso</h3></Card.Title>
+                    <Card.Text>
+                        <p>Este é o meu mais recente projeto. Este site está sendo hospedado na AWS e é um projeto full-stack, construído com a stack "PERN"</p>
+                    </Card.Text>
+                    <Button variant="light" target="_blank" href="https://www.fokuso.xyz/" >Ver Website</Button>
                 </Card.Body>
             </Card>
             </Col>

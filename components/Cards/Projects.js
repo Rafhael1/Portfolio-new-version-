@@ -70,7 +70,7 @@ export default function Projects() {
             <Card.Body>
                 <Card.Title><h3>Fokuso</h3></Card.Title>
                 <Card.Text>
-                    <p>This is a productivity app that I built with the PERN stack. I'm currently trying to deploy it to AWS.</p>
+                    <p>This is a productivity app that I built with the PERN stack.</p>
                 </Card.Text>
                 <Button variant="none" target="_blank" href="https://www.fokuso.xyz/" ><VisibilityIcon className="icon" /></Button>
                 <Button variant="none" target="_blank" href="https://github.com/Rafhael1/Fokuso" ><CodeIcon className="icon" /></Button>

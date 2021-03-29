@@ -10,6 +10,7 @@
         padding: 0px !important;
         opacity: 70%;      
         user-select: none;
+        filter: grayscale(50%);
     }
     img:hover {
         opacity: 100%;
