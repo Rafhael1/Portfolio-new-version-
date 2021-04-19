@@ -4,16 +4,15 @@
     text-align: center;
     align-items: center;
     img {
-        margin: 15px auto;
+        margin: 15px 10px;
         height: 150px;
         width: 150px;
         padding: 0px !important;
         opacity: 70%;      
         user-select: none;
-        filter: grayscale(50%);
+        transition: 0.5s;
     }
     img:hover {
         opacity: 100%;
-        filter: drop-shadow(2px 3px 2px rgb(54, 54, 54));
     }
 }

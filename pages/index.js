@@ -32,11 +32,11 @@ export default function Home() {
                                     <h2 className="red">About Me</h2>
                                     <p>
                                         I am a Front-End Web Developer from Brazil. I have experience developing
-                                        Websites with Javascript and with some of its frameworks. Also, I have
+                                        websites with React.Js. Also, I have
                                         experience developing cross platform mobile applications with React Native, and
                                         desktop applications with Electron. Even though I focus on front-end
                                         development, I also have experience with back-end technologies including Node.Js
-                                        and databases such as SQL|PostgreSQL and I've tried MongoDB too. Check out my resume.
+                                        and databases such as SQL|PostgreSQL. Check out my resume for more information.
                                     </p>
                                 </div>
                             </Col>

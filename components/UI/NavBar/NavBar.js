@@ -17,7 +17,7 @@ export default class NavBar extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="m-auto">
-                                <Nav.Link className="NavItem custom-underline" href="Rafhael_Marques_Resume.pdf">Resume</Nav.Link>
+                                <Nav.Link className="NavItem custom-underline" href="Rafhael_Marques.pdf">Resume</Nav.Link>
                                 <Nav.Link className="NavItem custom-underline" href="#projects">Projects</Nav.Link>
                                 <Nav.Link className="NavItem custom-underline" href="#contact">Contact</Nav.Link>
                             </Nav>
