@@ -83,7 +83,7 @@ export default function Projects() {
         <Card.Body>
                 <Card.Title><h3>Countries Info</h3></Card.Title>
                 <Card.Text>
-                    <p>This is a app that shows basic information of countries.</p>
+                    <p>This is an app that shows basic information of countries.</p>
                 </Card.Text>
                 <Button variant="none" target="_blank" href="https://countries-6ed21.web.app/" ><VisibilityIcon className="icon" /></Button>
                 <Button variant="none" target="_blank" href="https://github.com/Rafhael1/countries-app" ><CodeIcon className="icon" /></Button>
